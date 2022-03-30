@@ -61,6 +61,11 @@ You can pass the ```-- -p 5555``` to switch port
   npm run dev 
 ```
 
+Start Server before attemping to login
+
+Email			 :```super@super.com ```
+Password : ```super@super.com ```
+
 ## API Reference
 
 #### Create customer

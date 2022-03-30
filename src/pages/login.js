@@ -44,11 +44,10 @@ const Login = () => {
                 logo={
                     <Link href="/">
                         <a>
-                            <ApplicationLogo className="w-20 h-20 fill-current text-gray-500" />
+                            <ApplicationLogo />
                         </a>
                     </Link>
                 }>
-
                 {/* Session Status */}
                 <AuthSessionStatus className="mb-4" status={status} />
 
@@ -105,12 +104,6 @@ const Login = () => {
                     </div>
 
                     <div className="flex items-center justify-end mt-4">
-                        <Link href="/forgot-password">
-                            <a className="underline text-sm text-gray-600 hover:text-gray-900">
-                                Forgot your password?
-                            </a>
-                        </Link>
-
                         <Button className="ml-3">Login</Button>
                     </div>
                 </form>
